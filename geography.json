@@ -1,0 +1,857 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "jy8n-bpbx",
+      "name" : "Forsyth Futures: Gender Equity in Pay, 2006-2014",
+      "attribution" : "United States Census Bureau, American Community Survey, 1-Year Estimate, Table: B20017, Median Earnings in the past 12 months for populations 16 and older",
+      "attributionLink" : "http://factfinder.census.gov/faces/nav/jsf/pages/searchresults.xhtml?refresh=t",
+      "averageRating" : 0,
+      "category" : "Social Justice",
+      "createdAt" : 1446756796,
+      "description" : "This dataset includes earnings for both male and female residents. Using these numbers, a ratio of female to male median income was calculated. This study uses  \"earnings\" as reported by the US Census, as the basis for analysis and the earnings considered are pulled from women and men ages 16+, working full-time, year round.",
+      "displayType" : "table",
+      "downloadCount" : 13,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1455645787,
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 14567100,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1446757196,
+      "publicationGroup" : 5340355,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1446756809,
+      "rowsUpdatedBy" : "hk3c-w4vv",
+      "tableId" : 5340355,
+      "totalTimesRated" : 0,
+      "viewCount" : 98,
+      "viewLastModified" : 1455640774,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 228804269,
+        "name" : "Year ",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "year",
+        "position" : 2,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 32465072,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 63,
+          "largest" : "2014-01-01T00:00:00",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2006-01-01T00:00:00",
+            "count" : 20
+          }, {
+            "item" : "2007-01-01T00:00:00",
+            "count" : 19
+          }, {
+            "item" : "2008-01-01T00:00:00",
+            "count" : 18
+          }, {
+            "item" : "2009-01-01T00:00:00",
+            "count" : 17
+          }, {
+            "item" : "2010-01-01T00:00:00",
+            "count" : 16
+          }, {
+            "item" : "2011-01-01T00:00:00",
+            "count" : 15
+          }, {
+            "item" : "2012-01-01T00:00:00",
+            "count" : 14
+          }, {
+            "item" : "2013-01-01T00:00:00",
+            "count" : 13
+          }, {
+            "item" : "2014-01-01T00:00:00",
+            "count" : 12
+          } ],
+          "smallest" : "2006-01-01T00:00:00"
+        },
+        "format" : {
+          "view" : "date_y",
+          "align" : "left"
+        }
+      }, {
+        "id" : 228804270,
+        "name" : "Geography",
+        "dataTypeName" : "text",
+        "fieldName" : "geography",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 32465073,
+        "width" : 208,
+        "cachedContents" : {
+          "non_null" : 63,
+          "largest" : "Wake County",
+          "null" : 0,
+          "top" : [ {
+            "item" : "United States",
+            "count" : 20
+          }, {
+            "item" : "North Carolina",
+            "count" : 19
+          }, {
+            "item" : "Durham County",
+            "count" : 18
+          }, {
+            "item" : "Forsyth County",
+            "count" : 17
+          }, {
+            "item" : "Guilford County",
+            "count" : 16
+          }, {
+            "item" : "Mecklenburg County",
+            "count" : 15
+          }, {
+            "item" : "Wake County",
+            "count" : 14
+          } ],
+          "smallest" : "Durham County"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804271,
+        "name" : "Female Income",
+        "dataTypeName" : "number",
+        "fieldName" : "female_income",
+        "position" : 4,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465074,
+        "width" : 256,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "37072.31746031746",
+          "largest" : "46042",
+          "null" : 0,
+          "top" : [ {
+            "item" : "43391",
+            "count" : 20
+          }, {
+            "item" : "37412",
+            "count" : 19
+          }, {
+            "item" : "34421",
+            "count" : 18
+          }, {
+            "item" : "46042",
+            "count" : 17
+          }, {
+            "item" : "34165",
+            "count" : 16
+          }, {
+            "item" : "35152",
+            "count" : 15
+          }, {
+            "item" : "38572",
+            "count" : 14
+          }, {
+            "item" : "41603",
+            "count" : 13
+          }, {
+            "item" : "38097",
+            "count" : 12
+          }, {
+            "item" : "34917",
+            "count" : 11
+          }, {
+            "item" : "41313",
+            "count" : 10
+          }, {
+            "item" : "36585",
+            "count" : 9
+          }, {
+            "item" : "34977",
+            "count" : 8
+          }, {
+            "item" : "40191",
+            "count" : 7
+          }, {
+            "item" : "42171",
+            "count" : 6
+          }, {
+            "item" : "38941",
+            "count" : 5
+          }, {
+            "item" : "35481",
+            "count" : 4
+          }, {
+            "item" : "42131",
+            "count" : 3
+          }, {
+            "item" : "35642",
+            "count" : 2
+          }, {
+            "item" : "36902",
+            "count" : 1
+          } ],
+          "smallest" : "30600",
+          "sum" : "2335556"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804272,
+        "name" : "95% MOE Female",
+        "dataTypeName" : "number",
+        "fieldName" : "_95_moe_female",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465075,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "1462.222222222222",
+          "largest" : "3516.09",
+          "null" : 0,
+          "top" : [ {
+            "item" : "2628.43",
+            "count" : 20
+          }, {
+            "item" : "67.91",
+            "count" : 19
+          }, {
+            "item" : "576.68",
+            "count" : 18
+          }, {
+            "item" : "2077.96",
+            "count" : 17
+          }, {
+            "item" : "2502.13",
+            "count" : 16
+          }, {
+            "item" : "1915.91",
+            "count" : 15
+          }, {
+            "item" : "1855.15",
+            "count" : 14
+          }, {
+            "item" : "1090.21",
+            "count" : 13
+          }, {
+            "item" : "163.23",
+            "count" : 12
+          }, {
+            "item" : "511.15",
+            "count" : 11
+          }, {
+            "item" : "1473.87",
+            "count" : 10
+          }, {
+            "item" : "1526.30",
+            "count" : 9
+          }, {
+            "item" : "2558.13",
+            "count" : 8
+          }, {
+            "item" : "1308.26",
+            "count" : 7
+          }, {
+            "item" : "1235.57",
+            "count" : 6
+          }, {
+            "item" : "134.64",
+            "count" : 5
+          }, {
+            "item" : "377.70",
+            "count" : 4
+          }, {
+            "item" : "2055.32",
+            "count" : 3
+          }, {
+            "item" : "1417.87",
+            "count" : 2
+          }, {
+            "item" : "1590.64",
+            "count" : 1
+          } ],
+          "smallest" : "67.91",
+          "sum" : "92120.00"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804273,
+        "name" : "Male Income",
+        "dataTypeName" : "number",
+        "fieldName" : "male_income",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465076,
+        "width" : 232,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "45650.42857142857",
+          "largest" : "57370",
+          "null" : 0,
+          "top" : [ {
+            "item" : "57370",
+            "count" : 20
+          }, {
+            "item" : "47473",
+            "count" : 19
+          }, {
+            "item" : "41859",
+            "count" : 18
+          }, {
+            "item" : "46147",
+            "count" : 17
+          }, {
+            "item" : "43794",
+            "count" : 16
+          }, {
+            "item" : "42279",
+            "count" : 15
+          }, {
+            "item" : "50410",
+            "count" : 14
+          }, {
+            "item" : "54994",
+            "count" : 13
+          }, {
+            "item" : "48099",
+            "count" : 12
+          }, {
+            "item" : "42146",
+            "count" : 11
+          }, {
+            "item" : "46603",
+            "count" : 10
+          }, {
+            "item" : "46771",
+            "count" : 9
+          }, {
+            "item" : "47595",
+            "count" : 8
+          }, {
+            "item" : "50841",
+            "count" : 7
+          }, {
+            "item" : "55600",
+            "count" : 6
+          }, {
+            "item" : "48745",
+            "count" : 5
+          }, {
+            "item" : "41857",
+            "count" : 4
+          }, {
+            "item" : "42436",
+            "count" : 3
+          }, {
+            "item" : "45986",
+            "count" : 2
+          }, {
+            "item" : "42072",
+            "count" : 1
+          } ],
+          "smallest" : "36805",
+          "sum" : "2875977"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804274,
+        "name" : "95% MOE Male",
+        "dataTypeName" : "number",
+        "fieldName" : "_95_moe_male",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465077,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "1863.413650793651",
+          "largest" : "4688.51",
+          "null" : 0,
+          "top" : [ {
+            "item" : "3115.74",
+            "count" : 20
+          }, {
+            "item" : "107.23",
+            "count" : 19
+          }, {
+            "item" : "275.23",
+            "count" : 18
+          }, {
+            "item" : "2000.51",
+            "count" : 17
+          }, {
+            "item" : "3275.40",
+            "count" : 16
+          }, {
+            "item" : "2628.43",
+            "count" : 15
+          }, {
+            "item" : "2055.32",
+            "count" : 14
+          }, {
+            "item" : "2688.00",
+            "count" : 13
+          }, {
+            "item" : "185.87",
+            "count" : 12
+          }, {
+            "item" : "306.21",
+            "count" : 11
+          }, {
+            "item" : "2447.32",
+            "count" : 10
+          }, {
+            "item" : "3548.26",
+            "count" : 9
+          }, {
+            "item" : "4039.15",
+            "count" : 8
+          }, {
+            "item" : "1153.36",
+            "count" : 7
+          }, {
+            "item" : "2840.51",
+            "count" : 6
+          }, {
+            "item" : "177.53",
+            "count" : 5
+          }, {
+            "item" : "294.30",
+            "count" : 4
+          }, {
+            "item" : "3651.91",
+            "count" : 3
+          }, {
+            "item" : "1957.62",
+            "count" : 2
+          }, {
+            "item" : "1650.21",
+            "count" : 1
+          } ],
+          "smallest" : "60.77",
+          "sum" : "117395.06"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804275,
+        "name" : "Female:Male Ratio",
+        "dataTypeName" : "number",
+        "fieldName" : "female_male_ratio",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465078,
+        "width" : 304,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "0.8153920634920635",
+          "largest" : "1.1029",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.7563",
+            "count" : 20
+          }, {
+            "item" : "0.7881",
+            "count" : 19
+          }, {
+            "item" : "0.8223",
+            "count" : 18
+          }, {
+            "item" : "0.9977",
+            "count" : 17
+          }, {
+            "item" : "0.7801",
+            "count" : 16
+          }, {
+            "item" : "0.8314",
+            "count" : 15
+          }, {
+            "item" : "0.7652",
+            "count" : 14
+          }, {
+            "item" : "0.7565",
+            "count" : 13
+          }, {
+            "item" : "0.7921",
+            "count" : 12
+          }, {
+            "item" : "0.8285",
+            "count" : 11
+          }, {
+            "item" : "0.8865",
+            "count" : 10
+          }, {
+            "item" : "0.7822",
+            "count" : 9
+          }, {
+            "item" : "0.7349",
+            "count" : 8
+          }, {
+            "item" : "0.7905",
+            "count" : 7
+          }, {
+            "item" : "0.7585",
+            "count" : 6
+          }, {
+            "item" : "0.7989",
+            "count" : 5
+          }, {
+            "item" : "0.8477",
+            "count" : 4
+          }, {
+            "item" : "0.9928",
+            "count" : 3
+          }, {
+            "item" : "0.7751",
+            "count" : 2
+          }, {
+            "item" : "0.8771",
+            "count" : 1
+          } ],
+          "smallest" : "0.7207",
+          "sum" : "51.3697"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804276,
+        "name" : "Ratio 95%MOE",
+        "dataTypeName" : "number",
+        "fieldName" : "ratio_95_moe",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465079,
+        "width" : 244,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "0.04789841269841270",
+          "largest" : "0.1452",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.0615",
+            "count" : 20
+          }, {
+            "item" : "0.0023",
+            "count" : 19
+          }, {
+            "item" : "0.0148",
+            "count" : 18
+          }, {
+            "item" : "0.0624",
+            "count" : 17
+          }, {
+            "item" : "0.0817",
+            "count" : 16
+          }, {
+            "item" : "0.0687",
+            "count" : 15
+          }, {
+            "item" : "0.0482",
+            "count" : 14
+          }, {
+            "item" : "0.0420",
+            "count" : 13
+          }, {
+            "item" : "0.0046",
+            "count" : 12
+          }, {
+            "item" : "0.0135",
+            "count" : 11
+          }, {
+            "item" : "0.0563",
+            "count" : 10
+          }, {
+            "item" : "0.0677",
+            "count" : 9
+          }, {
+            "item" : "0.0823",
+            "count" : 8
+          }, {
+            "item" : "0.0314",
+            "count" : 7
+          }, {
+            "item" : "0.0447",
+            "count" : 6
+          }, {
+            "item" : "0.0040",
+            "count" : 5
+          }, {
+            "item" : "0.0108",
+            "count" : 4
+          }, {
+            "item" : "0.0982",
+            "count" : 3
+          }, {
+            "item" : "0.0452",
+            "count" : 2
+          }, {
+            "item" : "0.0511",
+            "count" : 1
+          } ],
+          "smallest" : "0.0021",
+          "sum" : "3.0176"
+        },
+        "format" : { }
+      }, {
+        "id" : 228804277,
+        "name" : "Standard Error",
+        "dataTypeName" : "number",
+        "fieldName" : "standard_error",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 32465080,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 63,
+          "average" : "0.02443809523809524",
+          "largest" : "0.0741",
+          "null" : 0,
+          "top" : [ {
+            "item" : "0.0314",
+            "count" : 20
+          }, {
+            "item" : "0.0012",
+            "count" : 19
+          }, {
+            "item" : "0.0076",
+            "count" : 18
+          }, {
+            "item" : "0.0319",
+            "count" : 17
+          }, {
+            "item" : "0.0417",
+            "count" : 16
+          }, {
+            "item" : "0.0351",
+            "count" : 15
+          }, {
+            "item" : "0.0246",
+            "count" : 14
+          }, {
+            "item" : "0.0214",
+            "count" : 13
+          }, {
+            "item" : "0.0023",
+            "count" : 12
+          }, {
+            "item" : "0.0069",
+            "count" : 11
+          }, {
+            "item" : "0.0287",
+            "count" : 10
+          }, {
+            "item" : "0.0346",
+            "count" : 9
+          }, {
+            "item" : "0.0420",
+            "count" : 8
+          }, {
+            "item" : "0.0160",
+            "count" : 7
+          }, {
+            "item" : "0.0228",
+            "count" : 6
+          }, {
+            "item" : "0.0020",
+            "count" : 5
+          }, {
+            "item" : "0.0055",
+            "count" : 4
+          }, {
+            "item" : "0.0501",
+            "count" : 3
+          }, {
+            "item" : "0.0230",
+            "count" : 2
+          }, {
+            "item" : "0.0261",
+            "count" : 1
+          } ],
+          "smallest" : "0.0011",
+          "sum" : "1.5396"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Updates" : {
+            "Last Updated" : "09/17/2015",
+            "Update Schedule" : "Annually"
+          },
+          "Data Details" : {
+            "Forsyth Futures Data 101:" : "https://www.forsythfutures.org/stories/s/hvj2-yh4x/      ",
+            "Data Dictionary" : "Income ratio: median earnings for full-time female workers divided the median earnings for full-time male workers.",
+            "Data Dictionary Term 2" : "Earnings: As defined by the US Census Bureau: \"primarily wages and salary from a job, are usually a big source of income.\"",
+            "Forsyth Futures Data Dictionary:" : "https://www.forsythfutures.org/stories/s/rkpu-82ek/    "
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "hk3c-w4vv",
+        "displayName" : "Megan Grigg",
+        "roleName" : "administrator",
+        "screenName" : "Megan Grigg",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "hk3c-w4vv",
+        "displayName" : "Megan Grigg",
+        "roleName" : "administrator",
+        "screenName" : "Megan Grigg",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "create_dashboards", "manage_provenance", "create_story", "edit_story_title_desc", "create_story_copy", "delete_story", "manage_story_collaborators", "manage_story_visibility", "manage_story_public_version", "edit_story", "view_unpublished_story", "view_story", "view_all_dataset_status_logs", "use_data_connectors" ]
+      },
+      "tags" : [ "income", "gender", "social justice", "ratio", "female to male", "inequality" ],
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 1, "4B0BF373-079A-4EF7-A76F-1C1838B9B1D3", 1, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "United States", "32649", "110.81", "42210", "60.77", "0.7735", "0.0029", "0.0015" ]
+, [ 2, "14B34A26-688D-4E0F-B748-22774269983E", 2, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "North Carolina", "30600", "264.51", "37545", "667.23", "0.8150", "0.0161", "0.0082" ]
+, [ 3, "A1BE9DBC-B621-4467-BB2C-2C58A211F782", 3, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "Durham County", "37579", "3105.02", "40457", "2897.70", "0.9289", "0.1016", "0.0518" ]
+, [ 4, "55DD5D33-E471-4F29-8839-FD552F4A6A20", 4, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "Forsyth County", "32546", "1726.47", "40854", "1575.15", "0.7966", "0.0522", "0.0267" ]
+, [ 5, "EA0AAFC3-D07E-4498-B19D-360049A6DD1D", 5, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "Guilford County", "31201", "1004.43", "40360", "1718.13", "0.7731", "0.0413", "0.0211" ]
+, [ 6, "68EA55BC-52A7-414D-B0F7-CA1ED0A0C800", 6, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "Mecklenburg County", "35858", "1192.68", "46303", "1404.77", "0.7744", "0.0349", "0.0178" ]
+, [ 7, "BA18C97C-8AE7-4BA2-B38C-313392D335B2", 7, 1446728001, "927332", 1446728001, "927332", null, "2006-01-01T00:00:00", "Wake County", "40200", "1522.72", "51295", "1140.26", "0.7837", "0.0344", "0.0176" ]
+, [ 8, "C9244770-D48F-49A2-A2F5-22EC9B70EB2A", 8, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "United States", "34278", "101.28", "44255", "175.15", "0.7746", "0.0038", "0.0020" ]
+, [ 9, "20ED8A83-5CB9-43A2-8D45-5323BC3B0DFB", 9, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "North Carolina", "31738", "291.91", "39447", "804.26", "0.8046", "0.0180", "0.0092" ]
+, [ 10, "1BDB47C7-E8D4-424A-8C7E-441D3796BF62", 10, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "Durham County", "40592", "3516.09", "36805", "3648.34", "1.1029", "0.1452", "0.0741" ]
+, [ 11, "8AE7A446-6328-43B2-AB4D-CB14C026780A", 11, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "Forsyth County", "32648", "2462.81", "41758", "2377.02", "0.7818", "0.0739", "0.0377" ]
+, [ 12, "D4AE45F1-39C4-43E2-81B5-3253557ABFD8", 12, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "Guilford County", "34479", "1827.74", "41685", "1463.15", "0.8271", "0.0526", "0.0268" ]
+, [ 13, "7B2A968F-3CBE-4AFB-AFB1-56FD38ECF73E", 13, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "Mecklenburg County", "38926", "2346.04", "47426", "2653.45", "0.8208", "0.0675", "0.0344" ]
+, [ 14, "F6EDE838-E833-459A-8779-564466322CC6", 14, 1446728001, "927332", 1446728001, "927332", null, "2007-01-01T00:00:00", "Wake County", "41241", "1196.26", "51801", "1793.19", "0.7961", "0.0360", "0.0183" ]
+, [ 15, "E93C4BBD-B886-4EEE-BA9E-7792D24863AE", 15, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "United States", "35471", "69.11", "45556", "86.98", "0.7786", "0.0021", "0.0011" ]
+, [ 16, "BD561C13-8DE3-4298-86A8-959FEFF8F45F", 16, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "North Carolina", "32397", "302.64", "40875", "353.87", "0.7926", "0.0101", "0.0052" ]
+, [ 17, "CAB9F486-2462-4551-BB6D-DF24C65846C3", 17, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "Durham County", "40120", "1923.06", "45094", "4163.06", "0.8897", "0.0925", "0.0472" ]
+, [ 18, "21A26BA8-769C-4505-86DF-E5D43547B75A", 18, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "Forsyth County", "32595", "2747.57", "45229", "2325.79", "0.7207", "0.0712", "0.0363" ]
+, [ 19, "CD4E03A4-564C-4519-827B-8E8481C0D20B", 19, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "Guilford County", "33218", "1691.91", "44050", "3931.91", "0.7541", "0.0775", "0.0395" ]
+, [ 20, "F0BE60AF-21C2-442C-BFB8-B593E6AB4979", 20, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "Mecklenburg County", "38564", "2248.34", "49351", "2462.81", "0.7814", "0.0600", "0.0306" ]
+, [ 21, "4C5932BD-A587-45CD-8DA2-A69E37F1642E", 21, 1446728001, "927332", 1446728001, "927332", null, "2008-01-01T00:00:00", "Wake County", "40798", "1640.68", "52758", "2807.15", "0.7733", "0.0516", "0.0263" ]
+, [ 22, "AC29E6BE-C2ED-4F76-B1AC-0674ECF69009", 22, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "United States", "35549", "94.13", "45485", "152.51", "0.7816", "0.0033", "0.0017" ]
+, [ 23, "52C43FA2-9690-44E1-A5F3-614CF520376F", 23, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "North Carolina", "32576", "457.53", "40359", "499.23", "0.8072", "0.0151", "0.0077" ]
+, [ 24, "9CCFED4F-22ED-4293-926F-0FF8B093A215", 24, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "Durham County", "39855", "1664.51", "45976", "4688.51", "0.8669", "0.0955", "0.0487" ]
+, [ 25, "A29E4216-BD28-4B16-8EB0-06C11626B0FF", 25, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "Forsyth County", "35111", "2160.17", "42127", "2898.89", "0.8335", "0.0769", "0.0393" ]
+, [ 26, "CF7A8ED6-08B9-451C-8010-89875C3E7C18", 26, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "Guilford County", "33415", "1719.32", "43021", "2565.28", "0.7767", "0.0612", "0.0312" ]
+, [ 27, "EF3035B9-F46A-4935-8ECF-1A30480C408F", 27, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "Mecklenburg County", "37768", "1840.85", "48063", "1744.34", "0.7858", "0.0478", "0.0244" ]
+, [ 28, "FE585983-F441-431B-89EF-19296CCFB985", 28, 1446728001, "927332", 1446728001, "927332", null, "2009-01-01T00:00:00", "Wake County", "41237", "1286.81", "53547", "2545.02", "0.7701", "0.0438", "0.0223" ]
+, [ 29, "4DA0B94C-41D5-41A4-8AB5-A2771E847B87", 29, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "United States", "36551", "77.45", "46500", "92.94", "0.7860", "0.0023", "0.0012" ]
+, [ 30, "65E93ECE-5A86-4E6E-81BE-D47C11A39563", 30, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "North Carolina", "33188", "718.47", "41138", "271.66", "0.8067", "0.0183", "0.0093" ]
+, [ 31, "CC5B40B7-E832-45AE-82DA-3D4C64D05852", 31, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "Durham County", "41397", "1743.15", "42500", "3401.70", "0.9740", "0.0881", "0.0449" ]
+, [ 32, "CC24D1E2-88EA-48A7-8481-E0ECD89E56DD", 32, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "Forsyth County", "35617", "1757.45", "41465", "1559.66", "0.8590", "0.0533", "0.0272" ]
+, [ 33, "D4BF7F86-BAF7-4E50-A50D-16B235EE1261", 33, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "Guilford County", "32728", "2385.36", "41124", "1476.26", "0.7958", "0.0647", "0.0330" ]
+, [ 34, "45967A6E-F47F-4E14-99D3-52CE62D1CA55", 34, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "Mecklenburg County", "38601", "2297.19", "47747", "2728.51", "0.8084", "0.0667", "0.0340" ]
+, [ 35, "E8D092B1-487C-43FA-871B-190E89F282B9", 35, 1446728001, "927332", 1446728001, "927332", null, "2010-01-01T00:00:00", "Wake County", "41871", "931.74", "55801", "2035.06", "0.7504", "0.0321", "0.0164" ]
+, [ 36, "39692466-3CF0-426A-BD37-E96888368478", 36, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "United States", "37133", "81.02", "46993", "103.66", "0.7902", "0.0025", "0.0013" ]
+, [ 37, "1DA850CB-0FD3-457E-B345-1EA761347A04", 37, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "North Carolina", "33459", "582.64", "41950", "374.13", "0.7976", "0.0156", "0.0080" ]
+, [ 38, "00BA4058-D781-4EF5-94BA-941E37D788C6", 38, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "Durham County", "41445", "1690.72", "41657", "2245.96", "0.9949", "0.0673", "0.0343" ]
+, [ 39, "37ACD8E0-EBC1-459C-BCD0-0E9B3A24724C", 39, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "Forsyth County", "35132", "2776.17", "42222", "3136.00", "0.8321", "0.0902", "0.0460" ]
+, [ 40, "EA25094A-4C9A-45DE-9AD3-D48A0336BFF7", 40, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "Guilford County", "34342", "2686.81", "42339", "3231.32", "0.8111", "0.0887", "0.0452" ]
+, [ 41, "22D578E4-DEF1-48FB-A91E-BF7248F28CB0", 41, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "Mecklenburg County", "38823", "2534.30", "51068", "1230.81", "0.7602", "0.0529", "0.0270" ]
+, [ 42, "72203DA6-DB01-4053-AF27-A97744B3406D", 42, 1446728001, "927332", 1446728001, "927332", null, "2011-01-01T00:00:00", "Wake County", "43391", "2628.43", "57370", "3115.74", "0.7563", "0.0615", "0.0314" ]
+, [ 43, "14C113A5-BB1A-4C38-96BC-8E3CD2269EE9", 43, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "United States", "37412", "67.91", "47473", "107.23", "0.7881", "0.0023", "0.0012" ]
+, [ 44, "56D5F245-ABFC-41FF-B66A-47EF88DCF4CB", 44, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "North Carolina", "34421", "576.68", "41859", "275.23", "0.8223", "0.0148", "0.0076" ]
+, [ 45, "BA4DD8C6-4766-41A7-A73C-12681702929D", 45, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "Durham County", "46042", "2077.96", "46147", "2000.51", "0.9977", "0.0624", "0.0319" ]
+, [ 46, "1500717E-FD5A-4DB4-9198-F304ED52410C", 46, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "Forsyth County", "34165", "2502.13", "43794", "3275.40", "0.7801", "0.0817", "0.0417" ]
+, [ 47, "18B96190-2BA4-4D92-8D06-075DD7BCED3B", 47, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "Guilford County", "35152", "1915.91", "42279", "2628.43", "0.8314", "0.0687", "0.0351" ]
+, [ 48, "F70576FC-1044-461E-9D8F-BFEB637279CF", 48, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "Mecklenburg County", "38572", "1855.15", "50410", "2055.32", "0.7652", "0.0482", "0.0246" ]
+, [ 49, "3B1362F7-63C1-44FA-AB5D-9B1A2417C96A", 49, 1446728001, "927332", 1446728001, "927332", null, "2012-01-01T00:00:00", "Wake County", "41603", "1090.21", "54994", "2688.00", "0.7565", "0.0420", "0.0214" ]
+, [ 50, "80618A2F-89E0-4FD9-90B1-61431A73E77A", 50, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "United States", "38097", "163.23", "48099", "185.87", "0.7921", "0.0046", "0.0023" ]
+, [ 51, "520FCC54-A610-46D9-90C6-4FB440D9EE5F", 51, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "North Carolina", "34917", "511.15", "42146", "306.21", "0.8285", "0.0135", "0.0069" ]
+, [ 52, "DAC3CADD-6A03-4ED7-B550-7140B916D830", 52, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "Durham County", "41313", "1473.87", "46603", "2447.32", "0.8865", "0.0563", "0.0287" ]
+, [ 53, "ADDD0D4B-D79D-4DAC-BCA1-D413776C316B", 53, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "Forsyth County", "36585", "1526.30", "46771", "3548.26", "0.7822", "0.0677", "0.0346" ]
+, [ 54, "59F3DED0-8D02-4A68-81D4-193824D4A3C7", 54, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "Guilford County", "34977", "2558.13", "47595", "4039.15", "0.7349", "0.0823", "0.0420" ]
+, [ 55, "981DECE4-F2CC-4EB5-9027-EF00DBDF6636", 55, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "Mecklenburg County", "40191", "1308.26", "50841", "1153.36", "0.7905", "0.0314", "0.0160" ]
+, [ 56, "B6E0F3E0-56F7-4C32-AD73-B06C2183BEE7", 56, 1446728001, "927332", 1446728001, "927332", null, "2013-01-01T00:00:00", "Wake County", "42171", "1235.57", "55600", "2840.51", "0.7585", "0.0447", "0.0228" ]
+, [ 57, "7D5A05AE-3F62-4162-9B05-94C5357D6FD7", 57, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "United States", "38941", "134.64", "48745", "177.53", "0.7989", "0.0040", "0.0020" ]
+, [ 58, "2C7A9A3D-AD98-4B97-A8FB-A181EC73ABE0", 58, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "North Carolina", "35481", "377.70", "41857", "294.30", "0.8477", "0.0108", "0.0055" ]
+, [ 59, "B17C36D9-6FE9-4112-8375-650610AFC1C7", 59, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "Durham County", "42131", "2055.32", "42436", "3651.91", "0.9928", "0.0982", "0.0501" ]
+, [ 60, "C1737AD1-A5C8-4F34-9C12-6A8D93213893", 60, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "Forsyth County", "35642", "1417.87", "45986", "1957.62", "0.7751", "0.0452", "0.0230" ]
+, [ 61, "7B680378-9E9F-4D26-AA22-982A0E5A3B7B", 61, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "Guilford County", "36902", "1590.64", "42072", "1650.21", "0.8771", "0.0511", "0.0261" ]
+, [ 62, "398EE52C-677E-40B9-9728-991019299244", 62, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "Mecklenburg County", "41049", "1156.94", "50778", "1378.55", "0.8084", "0.0316", "0.0161" ]
+, [ 63, "6945B116-0A53-49D0-AA60-6771623F1601", 63, 1446728001, "927332", 1446728001, "927332", null, "2014-01-01T00:00:00", "Wake County", "42905", "3118.13", "55926", "2126.81", "0.7672", "0.0629", "0.0321" ]
+ ]
+}
