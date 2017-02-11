@@ -3,19 +3,21 @@
 <body>
 <script type="text/javascript">
 var ctx = document.getElementById('myChart').getContext('2d');
+
 var myChart = new Chart(ctx, {
-  type: 'line',
+  type: 'bar',
   data: {
-    labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S'],
+    labels: ['Aging', 'Employee_count', 'W', 'T', 'F', 'S', 'S'],
     datasets: [{
-      label: 'apples',
+      label: 'Men',
       data: [12, 19, 3, 17, 6, 3, 7],
       backgroundColor: "rgba(153,255,51,0.4)"
     }, {
-      label: 'oranges',
+      label: 'women',
       data: [2, 29, 5, 5, 2, 3, 10],
       backgroundColor: "rgba(255,153,0,0.4)"
     }]
   }
 });</script>
 </body>
+{"department_title":"Aging","employee_count":"38","female_1":"20","female_2":"0.5263","female_average_salary":"76367.29","female_total_salary":"1527345.70","male_1":"18","male_2":"0.4737","male_average_salary":"83158.60","male_total_salary":"1496854.72","payroll_to_men":"0.495","payroll_to_women":"0.505","total_payroll":"3024200.42","year":"2015"}
