@@ -1,0 +1,20 @@
+{
+  "name": "WellesleyHacksProject",
+  "version": "1.0.0",
+  "description": "FairPay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellesleyhacks/WellesleyHacksProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellesleyhacks/WellesleyHacksProject/issues"
+  },
+  "homepage": "https://github.com/wellesleyhacks/WellesleyHacksProject#readme"
+}
