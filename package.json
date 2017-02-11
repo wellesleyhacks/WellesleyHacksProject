@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wellesleyhacks/WellesleyHacksProject/issues"
   },
-  "homepage": "https://github.com/wellesleyhacks/WellesleyHacksProject#readme"
+  "homepage": "https://github.com/wellesleyhacks/WellesleyHacksProject#readme",
+  "dependencies": {
+    "chart.js": "^2.5.0"
+  }
 }
