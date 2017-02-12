@@ -6,23 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chart Demo</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">>
-    <!-- jQuery library -->
-    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
-
-    <!-- Add cdn to chart.js library files. -->
-
-    <script src="js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
 </head>
 
+<div class="page-header">
+    <h1>Fair Pay</h1>
+</div>
+
 <body>
+<div class="container">
 
-<!-- Step 1. Create a canvas on your web page. -->
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <p>The wage gap between male and female employees is prevalent through multiplejobs and occupations in the US.  Here is a report of the fields with the highestand lowest wage gap.
+            </p>
 
+        </div>
+    </div>
+    <canvas id="myChart"></canvas>
+</div>
+
+
+<div class = "container">
+    <div class="jumbotron">
+        <p id="test"> </p>
+        <p>
+            <a href="#" class="'btn btn-default btn-lg" role="button">More Info</a>
+            <button type="submit" class="btn btn-danger" role="button">Button</button>
+        </p>
+    </div>
+</div>
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"> </script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
 
 </html>
