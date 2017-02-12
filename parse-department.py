@@ -30,5 +30,5 @@ for element in all_data:
 
 all_data.sort(key=extract_diff, reverse=True)
 
-print(json.dumps(all_data))
+print(json.dumps(all_data, indent=4))
 #pprint(all_data)
