@@ -1,0 +1,21 @@
+
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    background-color: #f4f1bb;
+    color: #3c3c3c;
+}
+
+h1 {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    text-align: center;
+}
+.graph {
+    width: 90%;
+    height: 100%;
+}
+body {
+    background: #fffff3;
+}
