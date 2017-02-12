@@ -2,7 +2,10 @@
  * Created by zak-linux on 2/11/17.
  */
 
+var ctx2 = document.getElementById('barChart').getContext('2d');
 var ctx = document.getElementById('myChart').getContext('2d');
+
+
 var data = [
     {
         "department_title": "City Administrative Officer",
@@ -238,27 +241,45 @@ var data = [
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
-        labels: $.map(data, function(val){
+        labels: $.map(data, function (val) {
             return val.department_title;
         }),
         datasets: [{
             label: 'Men',
-            data: $.map(data,function(val){
+            data: $.map(data, function (val) {
                 return val.male_average_salary;
             }),
             backgroundColor: "rgba(153,255,51,0.4)"
         }, {
             label: 'Women',
-            data: $.map(data, function(val){
+            data: $.map(data, function (val) {
                 return val.female_average_salary;
             }),
             backgroundColor: "rgba(255,153,0,0.4)"
         }]
     }
 });
-/*var CHART = document.getElementById('myChart');
 
-var myChart = new Chart(CHART, {
+var barChart = new Chart(ctx2, {
+    type: 'bar',
+    data: {
+        labels: $.map(data, function(val){
+            return val.department_title;
+        }),
+        datasets: [{
+            label: 'Difference',
+            data: $.map(data,function(val){
+                return val.difference;
+            }),
+            backgroundColor: "rgba(153,255,51,0.4)"
+        }]
+    }
+});
+
+/**
+var CHART = document.getElementById('theChart');
+
+var theChart = new Chart(CHART, {
     type: 'bar',
     data: {
         labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
@@ -294,4 +315,5 @@ var myChart = new Chart(CHART, {
         }
     }
 });
+
 **/

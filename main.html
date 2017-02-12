@@ -7,36 +7,61 @@
     <title>Chart Demo</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 </head>
 
 <div class="page-header">
-    <h1>Fair Pay</h1>
+    <h1 class="animated infinite bounce"> Fair Pay </h1>
 </div>
 
 <body>
-<div class="container">
-
+<div class="container animated zoomIn">
     <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <p>The wage gap between male and female employees is prevalent through multiplejobs and occupations in the US.  Here is a report of the fields with the highestand lowest wage gap.
             </p>
 
         </div>
     </div>
-    <canvas id="myChart"></canvas>
 </div>
 
+<div class="graph">
+    <canvas id="myChart" class="animated zoomIn" width="400" height="400"></canvas>
+</div>
 
-<div class = "container">
-    <div class="jumbotron">
-        <p id="test"> </p>
+<div class="graph">
+    <canvas id="barChart" class="animated zoomIn" width="400" height="400"></canvas>
+</div>
+
+<div class="container">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 animated zoomIn">
         <p>
-            <a href="#" class="'btn btn-default btn-lg" role="button">More Info</a>
-            <button type="submit" class="btn btn-danger" role="button">Button</button>
+            For WHACK 2017, with the theme of Hacking the Glass Ceiling, we compiled the wages for men and women in different job positions to show that the wage gap between the two genders exists.
+
         </p>
     </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 animated zoomIn">
+        <p>
+            From the data we compiled, we noticed that the difference in the wages in the technical and financial fields is the smallest in comparison to positions in other fields.
+        </p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 zoomIn">
+        <p>
+            On the other end, city and official positions have the highest wage gap. With this knowledge, females can see which positions will give them a more equal pay, and companies can use this information to give fairer salaries.
+        </p>
+    </div>
+
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 zoomIn">
+        <p>
+            We hope that this website will be able inform more people about the age gap.
+        </p>
+    </div>
+
 </div>
+
 
 </body>
 
