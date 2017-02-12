@@ -1,10 +1,16 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
 
-<canvas id="myChart"></canvas>
+<canvas id="myChart" width="400" height="400"></canvas>
+<canvas id="myChart2" width="400" height="400"></canvas>
+
 <body>
 <script type="text/javascript">
+    
+    
 var ctx = document.getElementById('myChart').getContext('2d');
+var ctx2 = document.getElementById('myChart2').getContext('2d');
 var data = [
     {
         "department_title": "Employee Relations Board",
@@ -269,5 +275,24 @@ var myChart = new Chart(ctx, {
       backgroundColor: "rgba(255,153,0,0.4)"
     }]
   }
-});</script>
+});
+
+    
+        
+var myChart2 = new Chart(ctx2, {
+  type: 'bar',
+  data: {
+    labels: $.map(data, function(val){
+    	return val.department_title;
+    }),
+    datasets: [{
+      label: 'Difference',
+      data: $.map(data,function(val){
+      	return val.difference;
+      }),
+      backgroundColor: "rgba(153,255,51,0.4)"
+    }]
+  }
+}); 
+    </script>
 </body>
